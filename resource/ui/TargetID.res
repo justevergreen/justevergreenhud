@@ -1,0 +1,242 @@
+"Resource/UI/TargetID.res"
+{
+	"TargetIDBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TargerIDBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"scaleImage"	"1"
+        "fillcolor"		"0 0 0 214"
+	}
+	"TargetIDBG_Spec_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Blue"
+		"xpos"			"7"
+		"ypos"			"38"
+		"zpos"			"10"
+		"wide"			"100"				//128
+		"tall"	 		"1"	
+		"fillcolor"		"Blue"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"TargetIDBG_Spec_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Red"
+		"xpos"			"7"
+		"ypos"			"38"
+		"zpos"			"10"
+		"wide"			"100"				//128
+		"tall"	 		"1"	
+		"fillcolor"		"Red"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	
+	"BG"
+    {
+        "ControlName"         "CExImageButton"
+        "fieldName"           "BG"
+        "xpos"                "7"
+        "ypos"                "18"
+        "zpos"                "-4"
+        "wide"	          	  "640"
+        "tall"		          "20"
+        "autoResize"	      "0"
+        "pinCorner"	          "0"
+        "visible"		      "1"
+        "enabled"		      "1"
+        "defaultBgColor_Override"		"0 0 0 214"
+        "PaintBackgroundType""0"
+        "textinsety" "99"
+	}
+
+	"TargetNameLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetNameLabel"
+		"font"			"Medium14"				//Medium12
+		"xpos"			"0"
+		"ypos"			"0"	
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"fgcolor"		"White"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"textinsetx" "1"
+	}
+
+	"TargetNameLabelDebug"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetNameLabelDebug"
+		"font"			"Medium14"				//Medium12
+		"xpos"			"45"
+		"ypos"			"21"	
+		"zpos"			"2"
+		"wide"			"640"
+		"tall"			"14"
+		"fgcolor"		"White"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"textinsetx" "1"
+	}
+	
+	"TargetDataLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetDataLabel"
+		"font"			"Medium9"
+		"xpos"			"-30"
+		"ypos"			"8"		
+		"zpos"			"4"
+		"wide"			"640"
+		"tall"			"10"
+		"fgcolor"		"236 199 35 255"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetdata%"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
+    
+	"SpectatorGUIHealth"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"SpectatorGUIHealth"
+		"xpos"			"2"		
+		"ypos"			"18"
+		"zpos"			"5"
+		"wide"			"49"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"	
+		"HealthBonusPosAdj"	"10"
+		"HealthDeathWarning"	"0.49"
+		"TFFont"		"HudFontSmall"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"TextColor"		"Health"
+	}
+
+	"AmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"56"
+		"ypos"			"4"		//19
+		"zpos"			"12"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_class_heavy"
+		"scaleImage"	"1"
+	}	
+	
+	"MoveableSubPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MoveableSubPanel"
+		"xpos"			"0"
+		"ypos"			"3"		//0
+		"zpos"			"11"
+		"wide"			"32" 
+		"tall"			"36" 
+		"visible"		"1"
+		"enabled"		"1"	
+		
+		"MoveableIconBG"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"MoveableIconBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"10"
+			"tall"			"36"
+			"visible"		"0"
+			"enabled"		"0"
+			"icon"			"obj_status_alert_background_tall_nocolor"
+			"iconColor"		"HudBlack"
+			"scaleImage"	"1"
+		}
+		
+		"MoveableIcon"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"MoveableIcon"
+			"xpos"			"5"
+			"ypos"			"7"
+			"zpos"			"11"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"0"
+			"enabled"		"0"
+			"icon"			"obj_status_sentrygun_1"
+			"drawcolor"		"ProgressOffWhite"
+			"scaleImage"	"1"
+		}
+		"MoveableSymbolIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MoveableSymbolIcon"
+			"xpos"			"16"
+			"ypos"			"-2"
+			"zpos"			"12"
+			"wide"			"16"
+			"tall"			"8"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"../hud/eng_sel_item_movable"
+			"drawcolor"		"ProgressOffWhite"
+			"scaleImage"	"1"
+		}
+
+		"MoveableKeyLabel"
+		{	
+			"ControlName"		"Label"
+			"fieldName"		"MoveableKeyLabel"
+			"font"			"NoveMedium10"
+            "fgcolor_override"		"White"
+			"xpos"			"2"
+			"ypos"			"19"
+			"zpos"			"1"
+			"wide"			"640"
+			"tall"			"26"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%movekey%"
+			"textAlignment"		"North"
+			"dulltext"		"0"
+			"brighttext"		"0"
+		}	
+	}
+}
