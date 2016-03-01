@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
-		"iconColor"		"228 228 242 255"
+		"iconColor"		"255 255 255 255"
 	}
 	"Icon"
 	{
@@ -41,7 +41,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
-		"iconColor"		"228 228 242 255"
+		"iconColor"		"255 255 255 255"
 	}
 	"NotBuiltPanel"
 	{
@@ -56,14 +56,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Medium10"
+			"font"			"DefaultSmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sapper_not_built"
 			"textAlignment"	"Left"
@@ -89,7 +89,7 @@
 			"zpos"			"-10"		
 			"wide"			"108"
 			"tall"			"27"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"	"1"
@@ -112,9 +112,9 @@
 			"tall"					"27"
 			"autoResize"			"0"
 			"pinCorner"				"0"
-			"visible"				"0"
+			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"28 28 28 255"
+			"fillcolor"				"0 0 0 255"
 			"PaintBackgroundType"	"0"
 		}
 		"Health"
@@ -147,7 +147,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Medium10"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -201,7 +201,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"228 228 242 255"
+				"iconColor"		"255 255 255 255"
 			}
 			"TargetHealth"
 			{	

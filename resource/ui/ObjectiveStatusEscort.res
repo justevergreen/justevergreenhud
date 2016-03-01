@@ -109,21 +109,21 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"62"
+			"xpos"			"59"
 			"zpos"			"5"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"15"
+			"tall"			"15"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"114"
+			"ypos"			"113"
 		}
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"114"
+			"ypos"			"113"
 		}
 		
 		"if_multiple_trains_red"
@@ -194,7 +194,7 @@
 			"ypos"		"47"
 			"zpos"			"2"
 			"wide"		"30"
-			"tall"		"18"
+			"tall"		"17"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -209,18 +209,18 @@
 			{
 				"font"			"ItemFontAttribSmall"
 				"xpos"			"21"
-				"wide"			"12"
+				"wide"			"11"
 				"tall"			"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"47"
+				"ypos"			"46"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"82"
 			}
 		}
 		
@@ -400,7 +400,7 @@
 			"ypos"		"47"
 			"zpos"			"4"
 			"wide"		"30"
-			"tall"		"18"
+			"tall"		"17"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -422,12 +422,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"63"
+				"ypos"			"62"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"63"
+				"ypos"			"62"
 			}	
 		}
 		

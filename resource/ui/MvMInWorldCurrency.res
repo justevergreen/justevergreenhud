@@ -19,15 +19,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG"
-		"xpos"			"r240"		//15
-		"ypos"			"r17"		//7
-		"zpos"			"-22"
-		"wide"			"80"
-		"tall"			"17"
-		"visible"		"0"
+		"xpos"			"194"		//15
+		"ypos"			"50"		//7
+		"zpos"			"2"
+		"wide"			"62"
+		"tall"			"16"
+		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"Blank"	
+		"bgcolor_override"	"MvMBG"	
 	}
 	
 	"MoneyImagePanel"
@@ -49,16 +49,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"MediumNumbers20"
-		"fgcolor"		"Red"
-		"xpos"			"23"
-		"ypos"			"20"
+		"font"			"Book12"
+		"fgcolor"		"Gray"
+		"xpos"			"192"
+		"ypos"			"49"
 		"zpos"			"4"
-		"wide"			"80"
-		"tall"			"18"
+		"wide"			"62"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}
 	
@@ -66,16 +66,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"MediumNumbers20"
-		"fgcolor"		"Red"
-		"xpos"			"23"
-		"ypos"			"20"
+		"font"			"Book12"
+		"fgcolor"		"White"
+		"xpos"			"192"
+		"ypos"			"48"
 		"zpos"			"4"
-		"wide"			"80"
-		"tall"			"18"
+		"wide"			"62"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}
 }

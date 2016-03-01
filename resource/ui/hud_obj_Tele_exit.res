@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_exit"
-		"iconColor"		"228 228 242 255"
+		"iconColor"		"255 255 255 255"
 	}
 	"NotBuiltPanel"
 	{
@@ -61,7 +61,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"Blank"
+			"fillcolor"				"HudBG"
 			"PaintBackgroundType"	"0"
 		}			
 		"TeamColoredUnderline"
@@ -90,14 +90,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Medium10"
+			"font"			"DefaultSmall"
 			"xpos"			"54"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_exit_not_built"
 			"textAlignment"	"Left"
@@ -123,7 +123,7 @@
 			"zpos"			"-10"		
 			"wide"			"108"
 			"tall"			"27"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"	"1"
@@ -146,9 +146,9 @@
 			"tall"					"27"
 			"autoResize"			"0"
 			"pinCorner"				"0"
-			"visible"				"0"
+			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"28 28 28 255"
+			"fillcolor"				"0 0 0 255"
 			"PaintBackgroundType"	"0"
 		}
 		"Icon_Upgrade_1"
@@ -164,7 +164,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"Icon_Upgrade_2"
 		{
@@ -179,7 +179,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"Icon_Upgrade_3"
 		{
@@ -194,17 +194,16 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"104"
-			"ypos"			"3"
-			"zpos"			"-2"
-			"wide"			"4"
-			"tall"			"27"
+			"xpos"			"103"
+			"ypos"			"0"
+			"wide"			"34"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
@@ -222,7 +221,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"SapperIcon"
 		{
@@ -237,7 +236,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"Health"
 		{	
@@ -269,7 +268,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Medium10"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"

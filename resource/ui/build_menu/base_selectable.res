@@ -35,7 +35,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"ya_Name"
+		"fgcolor"		"black"
 	}
 
 	"ItemBackground"

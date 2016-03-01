@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
+		"xpos"			"44"
 		"ypos"			"2"
 		"zpos"			"-1"
 		"wide"			"200"
@@ -26,22 +26,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"Medium10"
+		"font"			"medium9Shadow"
 		"fgcolor"		"White"
-		"xpos"			"c-70"
+		"xpos"			"c-197"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"140"
+		"wide"			"137"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"		"center"
 		"labelText"		"%wave_count%"
-        
-        if_verbose
-		{
-			"xpos"			"c-197"
-		}	
 	}
 	
 	"SeparatorBar"
@@ -69,16 +64,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"Medium10"
-		"fgcolor"		"Blank"
-		"xpos"			"60"
-		"ypos"			"14"
+		"font"			"Medium8"
+		"fgcolor"		"White"
+		"xpos"			"55"
+		"ypos"			"11"
 		"zpos"			"3"
 		"wide"			"60"
 		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"				"west"
+		"textAlignment"				"south-west"
 		"labelText"					"#TF_MVM_Support"
 		
 		if_verbose
@@ -91,47 +86,37 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"c-70"
+		"xpos"			"c-196"
 		"ypos"			"14"
 		"zpos"			"3"
-		"wide"			"140"
+		"wide"			"137"
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter"
+		"image"			""
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
-        
-        
-        if_verbose
-		{
-			"xpos"			"c-197"
-		}	
 	}
 
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"c-70"
+		"xpos"			"c-196"
 		"ypos"			"14"
 		"zpos"			"-1"
-		"wide"			"140"
+		"wide"			"137"
 		"tall"			"8"
-		"fillcolor"		"ya_HudBG"
+		"fillcolor"		"0 0 0 214"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-        
-        if_verbose
-		{
-			"xpos"			"c-197"
-		}	
+
 	}	
 	"ProgressBarBG"
 	{

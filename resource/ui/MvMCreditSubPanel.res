@@ -1,14 +1,14 @@
 "Resource/UI/MvMCreditSubPanel.res"
 {	
-	"HeaderLabel"       //Stat titles
+	"HeaderLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"Medium14"
+		"font"			"Medium13"
 		"labelText"		"%header%"
 		"textAlignment" "center"
 		"xpos"			"4"
-		"ypos"			"60"
+		"ypos"			"0"
 		"wide"			"184"
 		"tall"			"22"
 		"fgcolor"		"White"
@@ -31,37 +31,37 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"34"
+		"ypos"			"26"
 		"wide"			"70"
-		"fgcolor"		"White"
+		"fgcolor"		"Gray"
 	}
 	
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
-		"ypos"			"34"
+		"ypos"			"26"
 		"wide"			"30"
-		"fgcolor"		"ya_Plus"
+		"fgcolor"		"Green"
 	}
 	
 	"CreditMissedTextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"44"
+		"ypos"			"46"
 		"wide"			"70"
 		"fgcolor"		"White"
 	}
@@ -70,11 +70,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
-		"ypos"			"44"
+		"ypos"			"46"
 		"wide"			"30"
 		"fgcolor"		"Red"
 	}
@@ -83,11 +83,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"54"
+		"ypos"			"66"
 		"wide"			"70"
 		"fgcolor"		"White"
 	}
@@ -96,13 +96,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
-		"ypos"			"54"
+		"ypos"			"66"
 		"wide"			"30"
-		"fgcolor"		"ya_Plus"
+		"fgcolor"		"Green"
 	}
 		
 	"CreditRatingLabelShadow"
@@ -113,7 +113,7 @@
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
 		"xpos"			"126"
-		"ypos"			"18"
+		"ypos"			"26"
 		"wide"			"70"
 		"tall"			"20"
 		"fgcolor"		"Blank"
@@ -123,13 +123,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium14"
+		"font"			"Medium9"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"125"
-		"ypos"			"13"
+		"ypos"			"25"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"Blank"
+		"fgcolor"		"White"
 	}
 }

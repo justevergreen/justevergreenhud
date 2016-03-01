@@ -77,7 +77,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"285"	//"0"
+		"xpos"					"150"	//"0"
 		"ypos"					"372"	//"r40"
 		"zpos"					"2"
 		"wide"					"46"
@@ -90,6 +90,6 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"MediumNumbers20"
+		"font"					"DemiBold20"
 	}
 }

@@ -15,20 +15,22 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"ya_MenuBG"
-		"infocus_bgcolor_override"		"ya_MenuBG"
-		"outoffocus_bgcolor_override"	"ya_MenuBG"
+		"bgcolor_override"				"46 43 42 0"
+		"infocus_bgcolor_override"		"46 43 42 0"
+		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"White"
-		"titlebardisabledfgcolor_override"		"White"
-		"titlebarbgcolor_override"				"ya_MenuBG"
+		"titlebarfgcolor_override"				"200 187 161 255"
+		"titlebardisabledfgcolor_override"		"200 187 161 255"
+		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
+
+		"NavToRelay"			"BackButton"
 	}
 	
 	"BackgroundHeader"
@@ -37,135 +39,87 @@
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-5"
+		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"20"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}			
-	"BackgroundHeaderCustom"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundHeader2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"ya_MenuBG"
-	}
+	}				
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-5"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}
-	"BackgroundFooterCustom"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter2"
-		"xpos"			"0"
-		"ypos"			"430"       //"420"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"ya_MenuBG"
-	}		
+	}				
 	"FooterLine"
 	{
-		"ControlName"	"EditablePanel"
-			"fieldName"		"FooterLine"
-			"xpos"			"0"
-			"ypos"			"430"
-			"zpos"			"7"
-			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"ya_MenuBG"
-	}		
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}				
 	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"15"
-        "tabyindent"	"0"
-		"tabxdelta"		"0"
-		"tabwidth"		"200"
-		"tabheight"		"1"
+		"tabxindent"	"80"
+		"tabxdelta"		"10"
+		"tabwidth"		"240"
+		"tabheight"		"34"
 		"transition_time" "0"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"20"
-			"zpos"			"7"
+			"ypos"			"32"
+			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"0"
+			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"ya_MenuBG"
+			"image"			"loadout_solid_line"
+			"scaleImage"	"1"
 		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"5"
-            "textinsety"		"0"
-			"font"				"Heavy22"   
-			"selectedcolor"		            "Blank" //"ya_MenuHi"
-			"unselectedcolor"	            "Blank" //"ya_MenuLo"	
-			"paintbackground"	"1"
-            
-			"activeborder_override"	        "NoBorder"
-			"normalborder_override"         "NoBorder"
-			"defaultBgColor_override"		"ya_MenuBG"
-            "armedBgColor_override"		    "ya_MenuBG"
-            "SelectedBgColor_override"      "ya_MenuBG"
-			"unselectedBgColor_override"	"ya_MenuBG"
-			"depressedBgColor_override"		"ya_MenuBG"
+			"textinsetx"		"40"
+			"font"				"HudFontMediumBold"
+			"selectedcolor"		"200 187 161 255"
+			"unselectedcolor"	"130 120 104 255"	
+			"defaultBgColor_override"	"46 43 42 255"
+			"paintbackground"	"0"
+			"activeborder_override"	"OutlinedGreyBox"
+			"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
-	
 
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-305"
-		"ypos"			"9999"
+		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"180"
 		"tall"			"25"
@@ -180,55 +134,13 @@
 		"brighttext"	"0"
 		"Command"		"back"
 
+		"NavUp"			"PlayNowButton"
+		"NavRight"		"LearnMoreButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-    "BackIcon"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BackIcon"
-		"font"			"Icon18"
-		"labelText"		"a"
-		"textAlignment"		"center"
-		"xpos"			"14"
-		"ypos"			"r40"
-		"zpos"			"7"
-		"wide"			"30"
-		"tall"			"32"
-		"fgcolor"		"White"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-    "BackSCLabel"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"		"BackSCLabel"
-		"xpos"			"14"	//"-54"
-		"ypos"			"r40"	//"r50"
-		"zpos"			"8"
-		"wide"			"30"	//"204"
-		"tall"			"32"	//"52"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&Q"
-		"textAlignment"		"center"
-		"font"			"Medium16"
-		
-		"command"				"back"
-		"paintbackground"		"1"
-		"PaintBackgroundType"	"2"
-		"border_default"		"NoBorder"
-		"border_armed"			"NoBorder"
-		
-		"defaultFgColor_override" "Blank"
-		"defaultBgColor_override" "Blank"
-		"armedFgColor_override" "White"
-		"armedBgColor_override" "ya_MenuBG"	//"Blank"
-		"depressedFgColor_override" "Blank"
-		"depressedBgColor_override" "Blank"
-	}
-	
-	
+
 	"WaitingForLeaderLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -263,8 +175,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"LearnMoreButton"
 		"xpos"			"c-101"
-		"ypos"			"9999"				//removed
-		"zpos"			"2"	
+		"ypos"			"437"
+		"zpos"			"2"
 		"wide"			"195"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -279,6 +191,10 @@
 		"brighttext"	"0"
 		"Command"		"learn_more"
 
+		"NavUp"			"PracticeButton"
+		"NavLeft"		"BackButton"
+		"NavRight"		"NextButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -287,34 +203,25 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NextButton"
-        "textinsetx"	"-17"
-		"use_proportional_insets" "1"
-		"xpos"			"r330"
-		"ypos"			"r43"
+		"xpos"			"c+120"
+		"ypos"			"437"
 		"zpos"			"2"
-		"wide"			"300"
-		"tall"			"40"
+		"wide"			"180"
+		"tall"			"25"
 		"autoResize"	"0"
 		//"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"Medium16"
-		"textAlignment"	"east"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"next"
-        
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"paintbackground"	        "1"
-        
-        "defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override"	"Blank"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"ya_Select"
-		"depressedFgColor_override" "White"
+
+		"NavUp"			"StartPartyButton"
+		"NavDown"		"LearnMoreButton"
+		"NavLeft"		"LearnMoreButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -342,19 +249,21 @@
 		"brighttext"	"0"
 		"Command"		"mannup"
 
+		"NavUp"			"Sheet"
+		"NavDown"		"BackButton"
+		"NavLeft"		"Sheet"
+		"NavRight"		"PracticeButton"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
-		"paintbackground"	"1"
-        
-		"defaultBgColor_override"	"ya_MenuBGDarker"
-		"armedBgColor_override"		"ya_MenuBGDarker"
-		"depressedBgColor_override"	"ya_MenuBGDarker"
-		"defaultFgColor_override"	"227 227 227 255"
-		"armedFgColor_override" 	"125 125 125 255"
-		"depressedFgColor_override" "227 227 227 255"
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
 	}
 
 	"MannUpDisabledLabel"
@@ -372,7 +281,7 @@
 		"wrap"				   "1"
 		"centerwrap"		   "1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"0 0 0 100"
+		"bgcolor_override"				"0 0 0 240"
 	}
 
 	"PracticeButton"
@@ -397,20 +306,21 @@
 		"brighttext"	"0"
 		"Command"		"practice"
 
+		"NavUp"			"Sheet"
+		"NavDown"		"LearnMoreButton"
+		"NavLeft"		"PlayNowButton"
+		"NavRight"		"StartPartyButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
 			
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
-		"paintbackground"	"1"
-        
-		"defaultBgColor_override"	"ya_MenuBGDarker"
-		"armedBgColor_override"		"ya_MenuBGDarker"
-		"depressedBgColor_override"	"ya_MenuBGDarker"
-		"defaultFgColor_override"	"227 227 227 255"
-		"armedFgColor_override" 	"125 125 125 255"
-		"depressedFgColor_override" "227 227 227 255"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
 	}
 
 	"PlayWithFriendsExplanation"
@@ -418,14 +328,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayWithFriendsExplanation"
 		"xpos"			"c+100"
-		"ypos"			"59"
+		"ypos"			"62"
 		"zpos"			"8"
 		"wide"			"200"
-		"tall"			"288"
+		"tall"			"285"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"ya_MenuBGDarker"
-		"border"		"NoBorder"
+		"bgcolor_override"	"0 0 0 200"
+		"border"		"QuickplayBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{
@@ -494,11 +404,13 @@
 		"brighttext"	"0"
 		"Command"		"start_party"
 
+		"NavUp"			"Sheet"
+		"NavDown"		"NextButton"
+		"NavLeft"		"PracticeButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
 
 	"StartExplanation"
 	{

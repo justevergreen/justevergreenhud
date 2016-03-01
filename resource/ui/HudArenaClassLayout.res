@@ -7,12 +7,12 @@
 		"xpos"			"c-100"
 		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"20"
+		"tall"			"80"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_red"
@@ -30,14 +30,14 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"-7"
-		"ypos"			"102"	//140
+		"ypos"			"98"	//140
 		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"32"
+		"tall"			"64"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/color_panel_clear"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
@@ -46,8 +46,8 @@
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 				
-		"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
+		"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"	
 	}
 	
 	"title"
@@ -84,7 +84,7 @@
 		"font"			"CerbeticaBold20"
 		"labelText"		"Your Squadron"
 		"textAlignment"	"center"
-		"fgcolor"		"ya_Shadow"
+		"fgcolor"		"HudShadow"
 	}
 		
 	"changeLabel"

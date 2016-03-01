@@ -31,7 +31,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"Medium20"
+			"font"			"Book19"
 			"fgcolor"		"blank"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -56,7 +56,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"Heavy24"
+			"font"			"Book19Shadow"
 			"xpos"			"4"
 			"ypos"			"0"
 			"wide"			"294"
@@ -66,7 +66,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
-			"labelText"		"Wave failed!"
+			"labelText"		"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"		"Center"
 		}
 	}
@@ -75,7 +75,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"Medium16"
+		"font"			"Book16Shadow"
 		"xpos"			"1"
 		"ypos"			"80"
 		"zpos"			"1"
@@ -96,12 +96,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"Medium16"
+		"font"			"Book16Shadow"
 		"xpos"			"37"
 		"ypos"			"100"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"70"
+		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

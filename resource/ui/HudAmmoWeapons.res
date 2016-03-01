@@ -1,119 +1,55 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-    "AmmoBG"	
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoBG"
-		"xpos"		    "600"
-		"ypos"		    "382"
-		"zpos"		    "-1"
-		"wide"		    "90"
-		"tall"		    "7"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"     "133 131 133 255"
+	"AmmoInClipShadow"	
+	{	
+	"ControlName"	"CExLabel"	
+	"fieldName"	 "AmmoInClipShadow"	
+	"font"	 "DemiBold48"	
+	"fgcolor"	 "HudShadow"	
+	"xpos"	 "43"	
+	"ypos"	 "52"	
+	"zpos"	 "4"	
+	"wide"	"100" 
+	"tall"	"56" 
+	"visible"	 "0"	
+	"enabled"	 "1"	
+	"textAlignment"	 "left"	
+	"labelText"	 "%Ammo%"
 	}
-	"AmmoInClip"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClip"
-		"font"			"Heavy48"
-		"fgcolor"		"ya_Ammo"
-		"xpos"	        "600"		
-		"ypos"	        "340"		
-		"zpos"			"7"
-		"wide"	        "95" 
-		"tall"	        "42" 
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"left"
-		"labelText"		"%Ammo%"	
-	}		
+
+	"AmmoInReserveShadow"	
+	{	
+	"ControlName"	 "CExLabel"	
+	"fieldName"	 "AmmoInReserveShadow"	
+	"font"	 "DemiBold22"	
+	"fgcolor"	 "HudShadow"	
+	"xpos"	 "112"	
+	"ypos"	 "53"	
+	"zpos"	 "4"	
+	"wide"	 "120"	
+	"tall"	 "42"	
+	"visible"	 "0"	
+	"enabled"	 "1"	
+	"textAlignment"	 "right"	
+	"labelText"	 "%AmmoInReserve%"
+	}
 	
-	"AmmoInReserve"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserve"
-		"font"			"Medium26"
-		"fgcolor"		"ya_AmmoReserve"
-		"xpos"	        "658"
-		"ypos"			"335"
-		"zpos"			"5"
-		"wide"			"92"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"right"
-		"labelText"		"%AmmoInReserve%"
-	}		
-	
-	"AmmoNoClip"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClip"
-		"font"			"Heavy48"
-		"fgcolor"		"ya_Ammo"
-		"xpos"	        "c83"		
-		"ypos"	        "340"		
-		"zpos"			"7"
-		"wide"	        "100" 
-		"tall"	        "42" 
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"labelText"		"%Ammo%"	
-	}	
-    "AmmoInClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClipShadow"
-		"font"			"Heavy48"
-		"fgcolor"		"ya_Shadow"
-		"xpos"	        "602"		
-		"ypos"	        "340"		
-		"zpos"			"7"
-		"wide"	        "95" 
-		"tall"	        "42" 
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"left"			
-		"labelText"		"%Ammo%"
+	"AmmoNoClipShadow"		
+	{	
+	"ControlName"	 "CExLabel"	
+	"fieldName"	 "AmmoNoClipShadow"	
+	"font"	 "DemiBold48"	
+	"fgcolor"	 "HudShadow"	
+	"xpos"	"44"					
+	"ypos"	"51"
+	"zpos"			"4"
+	"wide"	"100" 
+	"tall"	"56" 
+	"visible"	 "0"	
+	"enabled"	 "1"	
+	"textAlignment"	 "center"	
+	"labelText"	 "%Ammo%"
 	}
-    "AmmoInReserveShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserveShadow"
-		"font"			"Medium26"
-		"fgcolor"		"ya_Shadow"
-		"xpos"	        "659"
-		"ypos"			"337"
-		"zpos"			"5"
-		"wide"			"92"
-		"tall"			"42"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"right"
-		"labelText"		"%AmmoInReserve%"
-	}	
-	"AmmoNoClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClipShadow"
-		"font"			"Heavy48"
-		"fgcolor"		"ya_Shadow"
-		"xpos"	        "c84"		
-		"ypos"	        "341"		
-		"zpos"			"7"
-		"wide"	        "100" 
-		"tall"	        "42" 
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"			
-		"labelText"		"%Ammo%"
-	}
-    
-    //removed
-    
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -132,6 +68,26 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
+	
+	"AmmoBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoBG2"
+		"xpos"		"94"
+		"ypos"		"50"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
+	
+	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -149,5 +105,72 @@
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+	}
+	"AmmoInClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClip"
+		"font"			"DemiBold48"		//48
+		"fgcolor"		"Ammo"
+		"xpos"	"42"						//41
+		"ypos"	"51"							
+		"zpos"			"7"
+		"wide"	"100" 
+		"tall"	"56" 
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"left"				//east
+		"labelText"		"%Ammo%"
+		
+	}		
+	
+	"AmmoInReserve"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserve"
+		"font"			"DemiBold22"			//32
+		"fgcolor"		"AmmoReserve"
+		"xpos"			"111"				//78
+		"ypos"			"53"					//9
+		"zpos"			"5"
+		"wide"			"120"
+		"tall"			"42"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"right"
+		"labelText"		"%AmmoInReserve%"
+	}		
+	
+	"AmmoNoClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClip"
+		"font"			"DemiBold48"
+		"fgcolor"		"Ammo"
+		"xpos"	"43"					//67
+		"ypos"	"50"
+		"zpos"			"5"
+		"wide"	"100" 
+		"tall"	"56" 
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%Ammo%"
+		
 	}	
+	
+	"AmmoBG"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoBG"
+		"xpos"		    "43"
+		"ypos"		    "100"
+		"zpos"		    "-1"
+		"wide"		    "100"
+		"tall"		    "5"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "133 131 133 255"
+	}
+	
 }

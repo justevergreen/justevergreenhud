@@ -27,7 +27,7 @@
 		"zpos"			"4"
 		"wide"			"137"
 		"tall"			"8"
-		"fillcolor"		"ya_HudBG"
+		"fillcolor"		"0 0 0 175"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -83,6 +83,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"ya_HudBG"
+		"bgcolor_override"	"0 0 0 175"
 	}					
 }

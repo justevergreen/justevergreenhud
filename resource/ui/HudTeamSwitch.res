@@ -22,7 +22,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchLabel"
-		"font"			"Medium9"
+		"font"			"ChatFont"
 		"xpos"			"80"
 		"ypos"			"58"
 		"ypos_hidef"	"40"
@@ -36,14 +36,14 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_teambalanced"
-		"fgcolor"		"White"
+		"fgcolor"		"Gray"
 		"textAlignment"		"North"
 	}
 	"BalanceLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"BalanceLabel"
-		"font"			"Medium9"
+		"font"			"ChatFont"
 		"xpos"			"80"
 		"ypos"			"28"
 		"ypos_hidef"	"23"
@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"fgcolor"		"White"
+		"fgcolor"		"Gray"
 		"textAlignment"		"North"
 	}
 	"SwitchImage"

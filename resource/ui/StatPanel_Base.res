@@ -46,7 +46,7 @@
 		"enabled"		"0"
 		"labelText"		"%title%"
 		"textAlignment"	"west"
-		"fgcolor"		"Garm3nHealth"
+		"fgcolor"		"Health"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -66,7 +66,7 @@
 		"enabled"		"0"
 		"labelText"		"%statdesc%"
 		"textAlignment"		"west"
-		"fgcolor"		"Garm3nHealth"
+		"fgcolor"		"Health"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"1"
@@ -87,7 +87,7 @@
 		"enabled"		"0"
 		"labelText"		"%stattextlarge%"
 		"textAlignment"		"west"
-		"fgcolor"		"White"
+		"fgcolor"		"Gray"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -107,7 +107,7 @@
 		"enabled"		"0"
 		"labelText"		"%stattextsmall%"
 		"textAlignment"		"west"
-		"fgcolor"		"Garm3nHealth"
+		"fgcolor"		"Health"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}

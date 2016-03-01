@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
-		"iconColor"		"228 228 242 255"
+		"iconColor"		"255 255 255 255"
 	}
 	"Icon_Sentry_1"
 	{
@@ -41,7 +41,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"228 228 242 255"
+		"iconColor"		"255 255 255 255"
 	}
 	"NotBuiltPanel"
 	{
@@ -66,7 +66,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"Blank"
+			"fillcolor"				"HudBG"
 			"PaintBackgroundType"	"0"
 		}			
 		"TeamColoredUnderline"
@@ -95,14 +95,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Regular7"
+			"font"			"DefaultVerySmall"
 			"xpos"			"45"
-			"ypos"			"1"
+			"ypos"			"0"
 			"wide"			"60"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_disp_sentry_not_built"
 			"textAlignment"	"Left"
@@ -128,7 +128,7 @@
 			"zpos"			"-10"		
 			"wide"			"108"
 			"tall"			"56"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"	"1"
@@ -153,20 +153,21 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			""
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"104"
-			"ypos"			"3"
+			"xpos"			"114"
+			"ypos"			"0"
+			"ypos"			"0"
 			"zpos"			"-2"
-			"wide"			"4"
-			"tall"			"56"
-			"visible"		"1"
-			"enabled"		"1"	
-			"icon"			"obj_status_alert_background"
+			"wide"			"44"
+			"tall"			"30"
+			"visible"		"0"
+			"enabled"		"0"	
+			"icon"			"obj_status_alert_background_tall"
 		}
 		"WrenchIcon"
 		{
@@ -181,7 +182,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"SapperIcon"
 		{
@@ -196,7 +197,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
 		"HealthBG"
 		{
@@ -209,9 +210,9 @@
 			"tall"					"56"
 			"autoResize"			"0"
 			"pinCorner"				"0"
-			"visible"				"0"
+			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"28 28 28 255"
+			"fillcolor"				"0 0 0 255"
 			"PaintBackgroundType"	"0"
 		}
 		"Health"
@@ -244,7 +245,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Medium10"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -352,7 +353,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"Medium10"
+				"font"			"DefaultSmall"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"200"

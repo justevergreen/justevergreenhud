@@ -2,15 +2,15 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"76"
-		"delta_item_start_y"	"27"
-		"delta_item_end_y"		"24"
-		"PositiveColor"			"ya_Plus"
+		"delta_item_x"			"400"
+		"delta_item_start_y"	"375"
+		"delta_item_end_y"		"365"
+		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
-		"zpos"			        "-1"
-		"delta_lifetime"		"0.8"
-		"delta_item_font"		"Medium16"
-		"textAlignment"	"east"
+		"zpos"			"-1"
+		"delta_lifetime"		"0"
+		"delta_item_font"		"Garm3n11"
+		"textAlignment"	"center"
 	}
 	
 	"AccountBG"
@@ -44,7 +44,7 @@
 		"pinCorner"	"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"ya_HudBG"
+		"fillcolor"		"HudBG"
 		"PaintBackgroundType""0"
 
 	}
@@ -72,11 +72,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"9"
-		"ypos"			"18"
+		"xpos"			"10"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"99"
-		"tall"			"34"
+		"tall"			"35"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -87,17 +87,17 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"font"			"Medium18"
+		"font"			"Book23"
 	}
 	"AccountValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow"
-		"xpos"			"10"
-		"ypos"			"19"
+		"xpos"			"11"
+		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"99"
-		"tall"			"34"
+		"tall"			"35"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -107,7 +107,9 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"ya_Shadow"
-		"font"			"Medium18"
+		"fgcolor"		"HudShadow"
+		"font"			"Book23"
 	}
+	
+	
 }

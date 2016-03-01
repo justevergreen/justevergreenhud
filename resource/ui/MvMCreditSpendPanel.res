@@ -11,7 +11,7 @@
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"15"
-		"fgcolor"		"Blank"
+		"fgcolor"		"tanlight"
 	}
 		
 	"TableBackground"
@@ -31,11 +31,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"#TF_PVE_Upgrades"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"34"
+		"ypos"			"26"
 		"wide"			"70"
 		"fgcolor"		"White"
 	}
@@ -44,11 +44,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesCountLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"%upgrades%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
-		"ypos"			"34"
+		"ypos"			"26"
 		"wide"			"30"
 		"fgcolor"		"White"
 	}
@@ -57,11 +57,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"#TF_PVE_Buybacks"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"44"
+		"ypos"			"46"
 		"wide"			"70"
 		"fgcolor"		"White"
 	}
@@ -70,11 +70,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackCountLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"%buybacks%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
-		"ypos"			"44"
+		"ypos"			"46"
 		"wide"			"30"
 		"fgcolor"		"White"
 	}
@@ -83,11 +83,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"#TF_PVE_Bottles"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"54"
+		"ypos"			"66"
 		"wide"			"70"
 		"fgcolor"		"White"
 	}
@@ -96,11 +96,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleCountLabel"
-		"font"			"Medium10"
+		"font"			"Medium9"
 		"labelText"		"%bottles%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
-		"ypos"			"54"
+		"ypos"			"66"
 		"wide"			"30"
 		"fgcolor"		"White"
 	}

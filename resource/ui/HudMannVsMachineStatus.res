@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"20"
+		"xpos"				"c-280"
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
+		"wide"				"600"
+		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -47,10 +47,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c98"
+		"ypos"				"r118"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"f0"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -59,10 +59,10 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"90000"
-		"tall"				"480"
+		"xpos"				"c164"
+		"ypos"				"r76"
+		"wide"				"f0"
+		"tall"				"f0"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -223,7 +223,7 @@
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
-			"ypos"			"999999"
+			"ypos"			"400"
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
